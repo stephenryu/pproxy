@@ -6,6 +6,7 @@ use serde::Deserialize;
 use std::{
     ffi::OsStr,
     fs,
+    io::ErrorKind,
     net::SocketAddr,
     path::{Path, PathBuf},
     time::SystemTime,
@@ -207,7 +208,7 @@ fn cleanup_old_logs(log_dir: &str, basename: &str, max_age_days: u64) -> Result<
 async fn main() -> Result<()> {
     let args = Args::parse_from(preprocess_args());
     if args.version {
-        println!("PProxy Version: {}", version_string());
+        println!("pproxy {}", version_string());
         return Ok(());
     }
 
@@ -225,12 +226,26 @@ async fn main() -> Result<()> {
         return Ok(());
     }
 
+    let mut started = 0usize;
     for rule in conf.proxy_list.clone() {
-        tokio::spawn(async move {
-            if let Err(err) = start_proxy_server(rule).await {
-                error!("proxy server exited with error: {err:#}");
+        match bind_listener(&rule).await? {
+            Some(listener) => {
+                started += 1;
+                tokio::spawn(async move {
+                    if let Err(err) = start_proxy_server(rule, listener).await {
+                        error!("proxy server exited with error: {err:#}");
+                    }
+                });
             }
-        });
+            None => {
+                // bind_listener already logged why it was skipped.
+            }
+        }
+    }
+
+    if started == 0 {
+        error!("No proxy listeners could be started. Exiting.");
+        return Ok(());
     }
 
     wait_for_shutdown_signal().await;
@@ -238,21 +253,34 @@ async fn main() -> Result<()> {
     Ok(())
 }
 
-async fn start_proxy_server(rule: ProxyRule) -> Result<()> {
-    info!(
-        "Starting proxy server on port: {} with target server port: {}",
-        rule.listen_port, rule.target_port
-    );
-
+async fn bind_listener(rule: &ProxyRule) -> Result<Option<TcpListener>> {
     let listen_addr: SocketAddr = format!("0.0.0.0:{}", rule.listen_port)
         .parse()
         .context("invalid listen address")?;
 
-    let listener = TcpListener::bind(listen_addr)
-        .await
-        .with_context(|| format!("failed to bind to {listen_addr}"))?;
+    let listener = match TcpListener::bind(listen_addr).await {
+        Ok(listener) => listener,
+        Err(err) if err.kind() == ErrorKind::AddrInUse => {
+            error!(
+                "Port {} is already in use; cannot bind {}. Stop the process using it or change listen_port.",
+                rule.listen_port, listen_addr
+            );
+            return Ok(None);
+        }
+        Err(err) => {
+            return Err(err).with_context(|| format!("failed to bind to {listen_addr}"));
+        }
+    };
 
     info!("Proxy server started on : {}", rule.listen_port);
+    Ok(Some(listener))
+}
+
+async fn start_proxy_server(rule: ProxyRule, listener: TcpListener) -> Result<()> {
+    info!(
+        "Starting proxy server on port: {} with target server port: {}",
+        rule.listen_port, rule.target_port
+    );
 
     loop {
         let (client, remote_addr) = listener.accept().await?;
