@@ -99,7 +99,17 @@ fn version_string() -> String {
         return v.to_string();
     }
 
-    format!("{v} (commit: {commit}, date: {build_unix})")
+    let formatted = build_unix
+        .parse::<i64>()
+        .ok()
+        .and_then(|ts| {
+            chrono::DateTime::<chrono::Utc>::from_timestamp(ts, 0)
+                .map(|dt| dt.with_timezone(&chrono::Local))
+        })
+        .map(|dt| dt.format("%Y-%m-%d").to_string())
+        .unwrap_or_else(|| build_unix.to_string());
+
+    format!("{v} ({commit} {formatted})")
 }
 
 fn read_config(path: &Path) -> Result<Config> {

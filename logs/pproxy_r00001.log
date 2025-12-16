@@ -1,6 +1,0 @@
-INFO [pproxy] PProxy Starting... 1 proxy(s) configured
-INFO [pproxy] Starting proxy server on port: 1890 with target server port: 1853
-INFO [pproxy] Proxy server started on : 1890
-INFO [pproxy] New client connected 127.0.0.1:60555
-INFO [pproxy] Connecting to target server: 127.0.0.1:1853
-INFO [pproxy] Shutting down...
