@@ -1,0 +1,335 @@
+INFO [pproxy] PProxy Starting... 1 proxy(s) configured
+INFO [pproxy] Starting proxy server on port: 1890 with target server port: 1853
+INFO [pproxy] Proxy server started on : 1890
+INFO [pproxy] New client connected 127.0.0.1:63743
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:63788
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] Client disconnected 127.0.0.1:63743
+INFO [pproxy] Client disconnected 127.0.0.1:63788
+INFO [pproxy] New client connected 127.0.0.1:12032
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:18053
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:16901
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:16903
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:16944
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:16946
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] Client disconnected 127.0.0.1:16944
+INFO [pproxy] Client disconnected 127.0.0.1:16946
+INFO [pproxy] New client connected 127.0.0.1:16988
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:16990
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:9070
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:9113
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:42528
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:42531
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:42533
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:42536
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:54771
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:48525
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:48529
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:48531
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:48563
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:48566
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:48585
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:48614
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:48616
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:48619
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:48621
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:2795
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:2797
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:2800
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:2802
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:2842
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:2844
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:56018
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:56021
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:14269
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:14273
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:14276
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:14280
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:63776
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:63803
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:63806
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:63808
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:63810
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:63812
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:63857
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:63859
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:31673
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:31675
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:35495
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:35497
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:4888
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:4890
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:17568
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:17570
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:17574
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:17576
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:17616
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:17618
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:17621
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:17623
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:17664
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:17666
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:17668
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:17671
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:5305
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:5307
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:5310
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:5312
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:5353
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:5355
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:5357
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:5359
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:5362
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:5402
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:19083
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:19085
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:22267
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:22269
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:1505
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:1507
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:17633
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:17635
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:43853
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:43856
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:43858
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:43860
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:43901
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:43903
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:43905
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:43907
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:43948
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:43950
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:43952
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:43954
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:43994
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:43996
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:19364
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:19366
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:28370
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:28372
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:41934
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:41936
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:41977
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:41979
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:41984
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:41986
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:41989
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:41991
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+ERROR [pproxy] connection error: failed to connect to target 127.0.0.1:1853: 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다. (os error 10061)
+INFO [pproxy] New client connected 127.0.0.1:42031
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] New client connected 127.0.0.1:42033
+INFO [pproxy] Connecting to target server: 127.0.0.1:1853
+INFO [pproxy] Shutting down...
