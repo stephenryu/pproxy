@@ -1,3 +1,12 @@
 # Example configuration for pproxy
-message: "Hello from config.yaml"
-listen: "127.0.0.1:8080"
+proxy_list:
+  - listen_host: 0.0.0.0
+    listen_port: 1890
+    target_host: 127.0.0.1
+    target_port: 1853
+
+log_dir: logs
+log_file: pproxy.log
+log_max_size: 3
+log_max_backups: 100
+log_max_age: 28
