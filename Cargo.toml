@@ -1,17 +1,20 @@
 [package]
 name = "pproxy"
-version = "1.0.0"
+version = "0.1.0"
 edition = "2024"
+build = "build.rs"
 
 [dependencies]
 anyhow = "1"
-chrono = "0.4"
 clap = { version = "4", features = ["derive"] }
 flexi_logger = "0.29"
 log = "0.4"
 serde = { version = "1", features = ["derive"] }
 serde_yaml = "0.9"
 tokio = { version = "1", features = ["macros", "rt-multi-thread", "net", "io-util", "signal", "time"] }
+
+[build-dependencies]
+chrono = "0.4"
 
 [profile.release]
 strip = true
